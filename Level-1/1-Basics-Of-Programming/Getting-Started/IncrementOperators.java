@@ -1,0 +1,22 @@
+
+
+public class IncrementOperators {
+	
+	public static void main(String[] args){
+		
+		// Visualize the box
+		int i = 10;
+		if(i++ == i)
+		      System.out.println(i + " is good");
+		else
+		      System.out.println(i + " is bad");
+	     
+		int j = 20;
+
+		if(++j == j)
+		      System.out.println(j + " is good");
+		else
+		      System.out.println(j + " is bad");
+	}
+	
+}
